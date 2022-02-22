@@ -3,5 +3,140 @@
 }
 
 body {
-  margin: 0;
+  margin: 0px;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  size: 36px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+/* Centering the navigation */
+.navigation {
+  display: inline-block;
+  text-align: center;
+  color: darkolivegreen;
+}
+
+/* align navigations next to each other */
+ul li {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 20px;
+
+}
+
+/* Make the img the full width of the format */
+.tiger-head img {
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+/* img float right to the mythology and luckytiger text */
+.tigernature {
+  display: inline;
+  float: right;
+
+  /* Deviding mythology and img into 2 stroks */
+  width: 50%; 
+  margin-left: 20px;
+}
+
+
+.tigernature img {
+  margin-top: 40px;
+
+  width: 100%;
+  height: auto;
+}
+
+.mythology {
+  display: block;
+  margin-left: 100px;
+  
+  /* Deviding mythology and img into 2 stroks */
+  width: 50%;
+}
+
+.luckytiger {
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Using table in center*/
+th, td {
+  padding: 15px;
+
+  text-align: center;
+  border-bottom: 1px solid darkslategray;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+  /* img in center of the page, same as the text*/
+.tigerwater img {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+.watertiger {
+  display: block;
+  margin: 100px;
+}
+
+h2 {
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+a:link{
+  color: darkslategray;
+  text-decoration: none;
+  text-transform: uppercase;
+  size: 14px;
+}
+
+a:hover{
+  color: purple;
+  text-decoration: none;
+  text-transform: uppercase;
+  size: 14px;
+}
+
+a:active{
+  color: purple;
+  text-decoration: none;
+  text-transform: uppercase;
+  size: 14px;
+}
+
+footer {
+  display: block;
+  margin-top: 100px;
+  padding: 3px;
+
+  text-align: center;
+  color: white;
+  size: 12px;
+
+  background-color: darkolivegreen;
 }
